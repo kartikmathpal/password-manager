@@ -1,0 +1,23 @@
+{
+  "name": "02password-manager-app",
+  "version": "1.0.0",
+  "description": "This app is a command line based app which manages passwords locally in the user's system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "password",
+    "manage",
+    "local"
+  ],
+  "author": "Kartik Mathpal",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "node-persist": "^2.0.11",
+    "nodemon": "^1.11.0",
+    "yargs": "^8.0.1"
+  }
+}
